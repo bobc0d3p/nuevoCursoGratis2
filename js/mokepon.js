@@ -73,7 +73,7 @@ function ataqueAleatorioEnemigo(){
     }else {
         ataqueEnemigo = 'TIERRA'
     }
-    crearMensaje()   
+    combate()   
 }
 function combate(){
 // COMBATE
