@@ -3,9 +3,7 @@ let ataqueEnemigo
 let vidasJugador = 3
 let vidasEnemigo = 3
 
-function aleatorio(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min)
-}
+
 
 function iniciarJuego() {
     
@@ -159,6 +157,9 @@ function reiniciarJuego(){
     location.reload()
 }
 
+function aleatorio(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
 
 window.addEventListener('load', iniciarJuego)
 
