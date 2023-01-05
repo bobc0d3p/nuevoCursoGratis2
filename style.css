@@ -1,15 +1,9 @@
+@import url('https://fonts.googleapis.com/css2? familia = Poppins: peso @ 300 &family= Ruslan+Display & display=swap');
 
-
-#title {
-    font-family: 'Ruslan Display';
-    color:lightblue;
-    width: 310px;
-    height: 50px;
-    background-color: teal;
+body{
+    font-family: 'Ruslan Display', cursived;
+    background-color: #243763;
 }
-/*selector de tipo id*/
-.subtitulo
-
 
 #seleccionar-mascota {
     display: flex;
@@ -18,29 +12,67 @@
     align-items: center;
 }
 
+#title {
+    color:rgb(255, 255, 255);
+    font-size: 32px;
+    
+}
+
+.subtitulo{
+    color: white;
+    font-size: 20px;
+}
+
 .tarjetas {
     display: flex;
     gap: 10px;
 }
 
 .tarjeta-de-mokepon {
-    width: 100px;
+    width: 180px;
     height: 100px;
-    background: aquamarine;
+    background: #FF6E31;
     padding: 10px;
     box-sizing: border-box;
     margin: 10px;
     border: 1px solid;
-}
-
-/*.boton-mascota{
+    font-size: 16;
+    border-radius: 20px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
-*/
+
+.tarjeta-de-mokepon img {
+    width: 80px;
+}
+
+#boton-mascota {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+#seleccionar-mascota {
+
+}
+
 input {
     display: none;
+}
+
+#seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque {
+    background-color: #FF6E31;
 }
 
